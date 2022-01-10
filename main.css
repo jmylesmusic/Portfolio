@@ -57,6 +57,16 @@ body, html {
     z-index: -1;
 }
 
+.parallax2{
+    background-image:url("bg-texture.jpg");
+    height: 12%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
 .parallax3{
     background-image:url("bg-texture2.jpg");
     height: 95vh;
@@ -217,14 +227,4 @@ li{
         transform:scale(1.01);
         opacity: 1;
         animation: animate 1.5s infinite;        
-    }
-
-    .parallax2{
-        background-image:var(--bg1);
-        height: 12%;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        z-index: -1;
     }
