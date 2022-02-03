@@ -243,6 +243,7 @@ li{
 .preview{
     border-radius: 5px; 
     width:40vw;
+    image-resolution:600px;
 }
 
 .description{
