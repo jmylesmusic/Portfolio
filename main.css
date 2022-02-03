@@ -228,3 +228,7 @@ li{
         opacity: 1;
         animation: animate 1.5s infinite;        
     }
+.preview{
+    border-radius: 5px; 
+    width:40vw;
+}
