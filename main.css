@@ -241,9 +241,9 @@ li{
 }
 
 .preview{
+    border:solid var(--color3) 1px;
     border-radius: 5px; 
     width:40vw;
-    image-resolution:600px;
 }
 
 .description{
