@@ -237,13 +237,17 @@ li{
     color:var(--color4);
     transform:scale(1.01);
     opacity: 1;
-    animation: animate 1.5s infinite;        
+    animation: animate 1.5s infinite;       
 }
 
-.preview{
+#preview{
     border:solid var(--color3) 1px;
     border-radius: 5px; 
     width:40vw;
+}
+
+#preview:hover{
+    cursor:pointer;
 }
 
 .description{
