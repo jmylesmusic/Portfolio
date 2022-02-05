@@ -240,14 +240,10 @@ li{
     animation: animate 1.5s infinite;       
 }
 
-#preview{
+.preview{
     border:solid var(--color3) 1px;
     border-radius: 5px; 
     width:40vw;
-}
-
-#preview:hover{
-    cursor:pointer;
 }
 
 .description{
